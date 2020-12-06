@@ -11,12 +11,23 @@ public class College {
 
     private String collegeName;
 
+    private int courseTotal;
+
     @Override
     public String toString() {
         return "College{" +
                 "id=" + id +
                 ", collegeName='" + collegeName + '\'' +
+                ", courseTotal=" + courseTotal +
                 '}';
+    }
+
+    public int getCourseTotal() {
+        return courseTotal;
+    }
+
+    public void setCourseTotal(int courseTotal) {
+        this.courseTotal = courseTotal;
     }
 
     public int getId() {
@@ -37,8 +48,9 @@ public class College {
 
     public College() {}
 
-    public College(Integer id, String collegeName) {
+    public College(Integer id, String collegeName, Integer courseTotal) {
         this.id = id;
         this.collegeName = collegeName;
+        this.courseTotal = courseTotal;
     }
 }

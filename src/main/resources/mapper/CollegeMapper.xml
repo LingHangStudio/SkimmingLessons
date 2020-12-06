@@ -7,14 +7,17 @@
         <constructor>
             <idArg column="id" javaType="java.lang.Integer" jdbcType="BIGINT"></idArg>
             <arg column="college_name" javaType="java.lang.String" jdbcType="VARCHAR"></arg>
+            <arg column="total" javaType="java.lang.Integer" jdbcType="VARCHAR"></arg>
         </constructor>
     </resultMap>
 
     <!-- order by CONVERT( [name] using gbk ) collate gbk_chinese_ci ASC 按汉字拼音首字母排序 -->
     <select id="findAllCollege" resultMap="baseResultMap">
-        select id, college_name
-        from college
-        order by CONVERT( college_name using gbk ) collate gbk_chinese_ci ASC
+        select c.id, c.college_name, count(acs.id) as total
+        from college c
+        left join all_class_schedule acs on c.id = acs.college_id
+        group by c.college_name
+        order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC
     </select>
 
 </mapper>

@@ -42,4 +42,9 @@
         order by all_class_schedulte_time.start_week
     </select>
 
+    <select id="getCourseCount" parameterType="java.lang.Integer" resultType="java.lang.Integer">
+        select count(*)
+        from all_class_schedule
+        where #{collegeId} = college_id
+    </select>
 </mapper>

@@ -1,6 +1,5 @@
 package com.linghang.skimlessons.service.impl;
 
-import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import com.linghang.skimlessons.common.ResponseCode;
 import com.linghang.skimlessons.common.ServerResponse;

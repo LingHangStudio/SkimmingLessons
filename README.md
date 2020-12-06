@@ -8,8 +8,6 @@
 >
 >待修改：
 >
->getCollegeList 连带返回 该学院课程总数
->
 >getCourseNameList 返回总数
 >
 >getCourseDetail 返回总数

@@ -24,4 +24,11 @@ public interface CourseDao {
      */
     List<Course> getClassDetailList(String className);
 
+    /**
+     * 查询课程总数
+     * @param collegeId 学院ID
+     * @return 该学院课程总数
+     */
+    Integer getCourseCount(Integer collegeId);
+
 }
