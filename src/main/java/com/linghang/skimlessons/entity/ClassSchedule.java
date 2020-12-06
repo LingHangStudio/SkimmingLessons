@@ -8,16 +8,18 @@ package com.linghang.skimlessons.entity;
  */
 public class ClassSchedule {
 
-    private long id;
+    private int id;
 
     private String courseName;
 
     private String teacherName;
 
+    private String term;
+
     //classroom_num
     private int classroomId;
 
-    private long collegeId;
+    private int collegeId;
 
 
     @Override
@@ -26,16 +28,25 @@ public class ClassSchedule {
                 "id=" + id +
                 ", courseName='" + courseName + '\'' +
                 ", teacherName='" + teacherName + '\'' +
+                ", term='" + term + '\'' +
                 ", classroomId=" + classroomId +
                 ", collegeId=" + collegeId +
                 '}';
     }
 
-    public long getId() {
+    public String getTerm() {
+        return term;
+    }
+
+    public void setTerm(String term) {
+        this.term = term;
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -63,21 +74,23 @@ public class ClassSchedule {
         this.classroomId = classroomId;
     }
 
-    public long getCollegeId() {
+    public int getCollegeId() {
         return collegeId;
     }
 
-    public void setCollegeId(long collegeId) {
+    public void setCollegeId(int collegeId) {
         this.collegeId = collegeId;
     }
 
     public ClassSchedule() {}
 
-    public ClassSchedule(long id, String courseName, String teacherName,
-                         int classroomId, long collegeId) {
+    public ClassSchedule(Integer id, String courseName,
+                         String teacherName, String term,
+                         Integer classroomId, Integer collegeId) {
         this.id = id;
         this.courseName = courseName;
         this.teacherName = teacherName;
+        this.term = term;
         this.classroomId = classroomId;
         this.collegeId = collegeId;
     }

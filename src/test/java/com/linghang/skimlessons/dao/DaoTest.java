@@ -18,10 +18,18 @@ public class DaoTest {
     @Autowired
     private CollegeDao collegeDao;
 
+    @Autowired
+    private CourseDao courseDao;
+
     @Test
     public void test1() {
         List<College> allCollege = collegeDao.findAllCollege();
         System.out.println(allCollege);
+    }
+
+    @Test
+    public void test2() {
+
     }
 
 }

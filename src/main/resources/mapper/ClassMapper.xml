@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.linghang.skimlessons.dao.CourseDao">
+
+    <resultMap id="CourseResultMap" type="com.linghang.skimlessons.entity.Course">
+        <constructor>
+            <idArg column="id" javaType="java.lang.Integer" jdbcType="BIGINT"></idArg>
+            <arg column="course_name" javaType="java.lang.String" jdbcType="VARCHAR"></arg>
+            <arg column="teacher_name" javaType="java.lang.String" jdbcType="VARCHAR"></arg>
+            <arg column="classroom_num" javaType="java.lang.Integer" jdbcType="BIGINT"></arg>
+            <arg column="building_name" javaType="java.lang.String" jdbcType="VARCHAR"></arg>
+            <arg column="area_num" javaType="java.lang.String" jdbcType="VARCHAR"></arg>
+            <arg column="room_num" javaType="java.lang.String" jdbcType="VARCHAR"></arg>
+            <arg column="campus_name" javaType="java.lang.String" jdbcType="VARCHAR"></arg>
+            <arg column="start_week" javaType="java.lang.Integer" jdbcType="BIGINT"></arg>
+            <arg column="end_week" javaType="java.lang.Integer" jdbcType="BIGINT"></arg>
+            <arg column="week" javaType="java.lang.Integer" jdbcType="BIGINT"></arg>
+            <arg column="start_section" javaType="java.lang.String" jdbcType="VARCHAR"></arg>
+            <arg column="end_section" javaType="java.lang.String" jdbcType="VARCHAR"></arg>
+        </constructor>
+    </resultMap>
+
+    <select id="getClassNameList" resultType="java.lang.String">
+        select distinct course_name
+        from all_class_schedule
+        where college_id = #{collegeId}
+        order by CONVERT( course_name using gbk ) collate gbk_chinese_ci ASC
+    </select>
+
+    <select id="getClassDetailList" resultMap="CourseResultMap">
+        select all_class_schedule.id, all_class_schedule.course_name, all_class_schedule.teacher_name,
+                all_class_schedule.classroom_num,
+                classroom.building_name, classroom.area_num, classroom.room_num, classroom.campus_name,
+                all_class_schedulte_time.start_week, all_class_schedulte_time.end_week,
+                all_class_schedulte_time.week, all_class_schedulte_time.start_section,
+                all_class_schedulte_time.end_section
+        from all_class_schedule
+        join classroom on all_class_schedule.classroom_num = classroom.id
+        join all_class_schedulte_time on all_class_schedule.id = all_class_schedulte_time.cls_shd_id
+        where course_name = #{className}
+        order by all_class_schedulte_time.start_week
+    </select>
+
+</mapper>

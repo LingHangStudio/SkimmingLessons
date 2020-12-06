@@ -10,9 +10,11 @@
         </constructor>
     </resultMap>
 
+    <!-- order by CONVERT( [name] using gbk ) collate gbk_chinese_ci ASC 按汉字拼音首字母排序 -->
     <select id="findAllCollege" resultMap="baseResultMap">
         select id, college_name
         from college
+        order by CONVERT( college_name using gbk ) collate gbk_chinese_ci ASC
     </select>
 
 </mapper>

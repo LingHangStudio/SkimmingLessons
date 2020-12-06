@@ -8,7 +8,7 @@ package com.linghang.skimlessons.entity;
  */
 public class Classroom {
 
-    private long id;
+    private int id;
 
     private String buildingName;
 
@@ -30,11 +30,11 @@ public class Classroom {
                 '}';
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
@@ -73,7 +73,7 @@ public class Classroom {
 
     public Classroom() {}
 
-    public Classroom(long id, String buildingName, String areaNum, String roomNum, String campusName) {
+    public Classroom(int id, String buildingName, String areaNum, String roomNum, String campusName) {
         this.id = id;
         this.buildingName = buildingName;
         this.areaNum = areaNum;

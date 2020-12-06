@@ -8,10 +8,10 @@ package com.linghang.skimlessons.entity;
  */
 public class ClassTime {
 
-    private long id;
+    private int id;
 
     //cls_shd_id
-    private long classScheduleId;
+    private int classScheduleId;
 
     private int startWeek;
 
@@ -38,19 +38,19 @@ public class ClassTime {
                 '}';
     }
 
-    public long getId() {
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 
-    public long getClassScheduleId() {
+    public int getClassScheduleId() {
         return classScheduleId;
     }
 
-    public void setClassScheduleId(long classScheduleId) {
+    public void setClassScheduleId(int classScheduleId) {
         this.classScheduleId = classScheduleId;
     }
 
@@ -96,9 +96,9 @@ public class ClassTime {
 
     public ClassTime() {}
 
-    public ClassTime(long id, long classScheduleId,
-                     int startWeek, int endWeek,
-                     String startSection, String endSection, int weekDay) {
+    public ClassTime(Integer id, Integer classScheduleId,
+                     Integer startWeek, Integer endWeek,
+                     String startSection, String endSection, Integer weekDay) {
         this.id = id;
         this.classScheduleId = classScheduleId;
         this.startWeek = startWeek;
