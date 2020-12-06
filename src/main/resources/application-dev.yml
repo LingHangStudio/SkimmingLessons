@@ -1,0 +1,14 @@
+#服务配置
+server:
+  port: 8080 #[localhost]
+
+#spring配置
+spring:
+  datasource:
+    username: root
+    password: healthstone76050
+    url: jdbc:mysql://localhost:3306/wusthelper?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+
+

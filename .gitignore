@@ -1,5 +1,6 @@
-HELP.md
+application-pro.yml
 /target/
+/log/
 .mvn
 
 ### STS ###

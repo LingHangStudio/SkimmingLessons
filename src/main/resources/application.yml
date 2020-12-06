@@ -1,1 +1,21 @@
+#配置mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.linghang.skimlessons
+  configuration:
+    map-underscore-to-camel-case: true
 
+#配置分页插件
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+
+#配置日志文件
+logging:
+  level:
+    com.linghang.skimlessons.dao: debug
+  config: classpath:conf/logback-spring.xml
+
+spring:
+  profiles:
+    active: dev
