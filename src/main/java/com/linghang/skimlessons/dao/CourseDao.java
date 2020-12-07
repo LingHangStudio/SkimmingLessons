@@ -31,4 +31,31 @@ public interface CourseDao {
      */
     Integer getCourseCount(Integer collegeId);
 
+    /**
+     * 按课程名搜索课程详情(全范围)
+     * @param key 关键词
+     * @return 课程详情列表
+     */
+    List<Course> searchByCourseName(String key);
+
+    /**
+     * 按老师搜索课程详情(全范围)
+     * @param key 关键词
+     * @return 课程详情列表
+     */
+    List<Course> searchByTeacher(String key);
+
+    /**
+     * 按课程名搜索课程详情(学院范围)
+     * @param key 关键词
+     * @return 课程详情列表
+     */
+    List<Course> searchByCourseNameInCollege(Integer collegeId, String key);
+
+    /**
+     * 按老师搜索课程详情(学院范围)
+     * @param key 关键词
+     * @return 课程详情列表
+     */
+    List<Course> searchByTeacherInCollege(Integer collegeId, String key);
 }

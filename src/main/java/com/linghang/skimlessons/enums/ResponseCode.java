@@ -1,4 +1,4 @@
-package com.linghang.skimlessons.common;
+package com.linghang.skimlessons.enums;
 
 /**
  * @author origin
@@ -13,6 +13,7 @@ public enum ResponseCode {
     PAGE_NUM_OUT_LOWEST_BOUNDS(6, "页数超过最小范围"),
     PAGE_NUM_OUT_HIGHEST_BOUNDS(7,"页数超过最大范围"),
     EMPTY(9, "查询结果为空"),
+    INVALID_CONDITION(11, "无效的前提条件，前提只能为0(通过老师)或1(通过课名)"),
     ;
 
     private final int code;

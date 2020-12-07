@@ -21,14 +21,8 @@
         </constructor>
     </resultMap>
 
-    <select id="getClassNameList" resultType="java.lang.String">
-        select distinct course_name
-        from all_class_schedule
-        where college_id = #{collegeId}
-        order by CONVERT( course_name using gbk ) collate gbk_chinese_ci ASC
-    </select>
-
-    <select id="getClassDetailList" resultMap="CourseResultMap">
+    <!-- 联合查询所有信息 -->
+    <sql id="allDetail">
         select all_class_schedule.id, all_class_schedule.course_name, all_class_schedule.teacher_name,
                 all_class_schedule.classroom_num,
                 classroom.building_name, classroom.area_num, classroom.room_num, classroom.campus_name,
@@ -38,8 +32,26 @@
         from all_class_schedule
         join classroom on all_class_schedule.classroom_num = classroom.id
         join all_class_schedulte_time on all_class_schedule.id = all_class_schedulte_time.cls_shd_id
+    </sql>
+
+    <!-- 通过汉字首字母排序 -->
+    <sql id="sort">
+        order by CONVERT( ${target} using gbk ) collate gbk_chinese_ci ASC
+    </sql>
+
+    <select id="getClassNameList" resultType="java.lang.String">
+        select distinct course_name
+        from all_class_schedule
+        where college_id = #{collegeId}
+        order by CONVERT( course_name using gbk ) collate gbk_chinese_ci ASC
+    </select>
+
+    <select id="getClassDetailList" resultMap="CourseResultMap">
+        <include refid="allDetail"></include>
         where course_name = #{className}
-        order by CONVERT( all_class_schedule.teacher_name using gbk ) collate gbk_chinese_ci ASC
+        <include refid="sort">
+            <property name="target" value="teacher_name"/>
+        </include>
     </select>
 
     <select id="getCourseCount" parameterType="java.lang.Integer" resultType="java.lang.Integer">
@@ -47,4 +59,34 @@
         from all_class_schedule
         where #{collegeId} = college_id
     </select>
+    
+    <select id="searchByCourseName" resultMap="CourseResultMap">
+        <include refid="allDetail"></include>
+        where course_name like #{key}
+        <include refid="sort">
+            <property name="target" value="teacher_name"/>
+        </include>
+    </select>
+
+    <select id="searchByTeacher" resultMap="CourseResultMap">
+        <include refid="allDetail"></include>
+        where teacher_name like #{key}
+        order by all_class_schedulte_time.week
+    </select>
+
+    <select id="searchByCourseNameInCollege" resultMap="CourseResultMap">
+        <include refid="allDetail"></include>
+        where course_name like #{key} and college_id = #{collegeId}
+        <include refid="sort">
+            <property name="target" value="teacher_name"/>
+        </include>
+    </select>
+
+    <select id="searchByTeacherInCollege" resultMap="CourseResultMap">
+        <include refid="allDetail"></include>
+        where teacher_name like #{key} and college_id = #{collegeId}
+        order by all_class_schedulte_time.week
+    </select>
+
+
 </mapper>

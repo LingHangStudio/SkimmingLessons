@@ -28,4 +28,23 @@ public interface SLService {
      * @return json数据
      */
     ServerResponse getCourseInfo(String CourseName, int pageNum, int pageSize);
+
+    /**
+     * 全范围模糊搜索课程详情信息(带前提:老师/课程名)
+     * @param key 搜索关键词
+     * @param pageNum 当前页号
+     * @param pageSize 单页条数
+     * @return json数据
+     */
+    ServerResponse searchCourse(int condition, String key, int pageNum, int pageSize);
+
+    /**
+     * 学院范围模糊搜索课程详情信息(带前提:老师/课程名)
+     * @param key 搜索关键词
+     * @param pageNum 当前页号
+     * @param pageSize 单页条数
+     * @return json数据
+     */
+    ServerResponse searchCourseInCollege(int collegeId, int condition,
+                                         String key, int pageNum, int pageSize);
 }
