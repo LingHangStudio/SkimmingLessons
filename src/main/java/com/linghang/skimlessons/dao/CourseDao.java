@@ -22,7 +22,7 @@ public interface CourseDao {
      * @param className 课程名称
      * @return 课程详情列表
      */
-    List<Course> getClassDetailList(String className);
+    List<Course> getClassDetailList(Integer collegeId, String className);
 
     /**
      * 查询课程总数

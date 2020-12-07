@@ -50,13 +50,13 @@ public class SLServiceImpl implements SLService {
     }
 
     @Override
-    public ServerResponse getCourseInfo(String CourseName, int pageNum, int pageSize) {
+    public ServerResponse getCourseInfo(int collegeId, String CourseName, int pageNum, int pageSize) {
         ServerResponse paramValid = PageUtil.pageParamValid(pageNum, pageSize);
         if (!paramValid.isSuccess()) return paramValid;
 
         PageHelper.startPage(pageNum, pageSize);
 
-        List<Course> detailList = courseDao.getClassDetailList(CourseName);
+        List<Course> detailList = courseDao.getClassDetailList(collegeId, CourseName);
 
         paramValid = PageUtil.pageParamValid(pageNum, detailList);
         if (!paramValid.isSuccess()) return paramValid;

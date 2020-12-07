@@ -37,10 +37,11 @@ public class SLController {
     //通过课程名称获取课程详情信息列表
     @GetMapping("getCourseDetail")
     public ServerResponse getCourseDetail(
+            @RequestParam("collegeId") Integer collegeId,
             @RequestParam("courseName") String courseName,
             @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
             @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize) {
-        return slService.getCourseInfo(courseName, pageNum, pageSize);
+        return slService.getCourseInfo(collegeId, courseName, pageNum, pageSize);
     }
 
     //全范围模糊搜索课程详情信息(带前提:老师/课程名)

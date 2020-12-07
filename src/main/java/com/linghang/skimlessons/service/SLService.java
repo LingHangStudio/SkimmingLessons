@@ -27,7 +27,7 @@ public interface SLService {
      * @param pageSize 单页容量
      * @return json数据
      */
-    ServerResponse getCourseInfo(String CourseName, int pageNum, int pageSize);
+    ServerResponse getCourseInfo(int collegeId, String CourseName, int pageNum, int pageSize);
 
     /**
      * 全范围模糊搜索课程详情信息(带前提:老师/课程名)

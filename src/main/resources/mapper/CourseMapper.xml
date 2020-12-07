@@ -48,7 +48,7 @@
 
     <select id="getClassDetailList" resultMap="CourseResultMap">
         <include refid="allDetail"></include>
-        where course_name = #{className}
+        where course_name = #{className} and college_id = #{collegeId}
         <include refid="sort">
             <property name="target" value="teacher_name"/>
         </include>
