@@ -47,4 +47,15 @@ public interface SLService {
      */
     ServerResponse searchCourseInCollege(int collegeId, int condition,
                                          String key, int pageNum, int pageSize);
+
+    /**
+     * 全范围模糊搜索课程详情信息
+     * @param key 搜索关键词
+     * @param pageNum 当前页号
+     * @param pageSize 单页条数
+     * @return json数据
+     */
+    ServerResponse search(String key, int pageNum, int pageSize);
+
+    ServerResponse searchInCollege(int collegeId, String key, int pageNum, int pageSize);
 }

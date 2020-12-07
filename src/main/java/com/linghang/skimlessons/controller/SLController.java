@@ -54,7 +54,7 @@ public class SLController {
         return slService.searchCourse(condition, key, pageNum, pageSize);
     }
 
-    //全范围模糊搜索课程详情信息(带前提:老师/课程名)
+    //学校范围模糊搜索课程详情信息(带前提:老师/课程名)
     @GetMapping("searchInCollegeWithCondition")
     public ServerResponse searchInCollegeWithCondition(
             @RequestParam("condition") Integer condition,
@@ -63,5 +63,24 @@ public class SLController {
             @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
             @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize) {
         return slService.searchCourseInCollege(collegeId, condition, key, pageNum, pageSize);
+    }
+
+    //全范围模糊搜索课程详情信息
+    @GetMapping("search")
+    public ServerResponse search(
+            @RequestParam("key") String key,
+            @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
+            @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize) {
+        return slService.search(key, pageNum, pageSize);
+    }
+
+    //学院范围模糊搜索课程详情信息
+    @GetMapping("searchInCollege")
+    public ServerResponse searchInCollege(
+            @RequestParam("collegeId") Integer collegeId,
+            @RequestParam("key") String key,
+            @RequestParam(value = "pageNum", defaultValue = "1") Integer pageNum,
+            @RequestParam(value = "pageSize", defaultValue = "5") Integer pageSize) {
+        return slService.searchInCollege(collegeId, key, pageNum, pageSize);
     }
 }

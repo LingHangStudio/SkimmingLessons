@@ -58,4 +58,18 @@ public interface CourseDao {
      * @return 课程详情列表
      */
     List<Course> searchByTeacherInCollege(Integer collegeId, String key);
+
+    /**
+     * 合并搜索(全范围)
+     * @param key 搜索关键词
+     * @return 课程详情列表
+     */
+    List<Course> searchAll(String key);
+
+    /**
+     * 合并搜索(学院范围)
+     * @param key 搜索关键词
+     * @return 课程详情列表
+     */
+    List<Course> searchInCollege(Integer collegeId, String key);
 }

@@ -10,6 +10,7 @@ import com.linghang.skimlessons.enums.ResponseCode;
 import com.linghang.skimlessons.enums.SearchCondition;
 import com.linghang.skimlessons.service.SLService;
 import com.linghang.skimlessons.util.PageUtil;
+import com.linghang.skimlessons.util.StrUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -66,6 +67,8 @@ public class SLServiceImpl implements SLService {
 
     @Override
     public ServerResponse searchCourse(int condition, String key, int pageNum, int pageSize) {
+        if (StrUtil.strInvalid(key)) return StrUtil.strInvalidResponse();
+
         ServerResponse paramValid = PageUtil.pageParamValid(pageNum, pageSize);
         if (!paramValid.isSuccess()) return paramValid;
 
@@ -90,6 +93,8 @@ public class SLServiceImpl implements SLService {
     @Override
     public ServerResponse searchCourseInCollege(int collegeId, int condition,
                                                 String key, int pageNum, int pageSize) {
+        if (StrUtil.strInvalid(key)) return StrUtil.strInvalidResponse();
+
         ServerResponse paramValid = PageUtil.pageParamValid(pageNum, pageSize);
         if (!paramValid.isSuccess()) return paramValid;
 
@@ -109,6 +114,40 @@ public class SLServiceImpl implements SLService {
         if (!paramValid.isSuccess()) return paramValid;
 
         return ServerResponse.createBySuccess("学院范围搜索成功", courseList);
+    }
+
+    @Override
+    public ServerResponse search(String key, int pageNum, int pageSize) {
+        if (StrUtil.strInvalid(key)) return StrUtil.strInvalidResponse();
+
+        ServerResponse paramValid = PageUtil.pageParamValid(pageNum, pageSize);
+        if (!paramValid.isSuccess()) return paramValid;
+
+        PageHelper.startPage(pageNum, pageSize);
+
+        List<Course> courseList = courseDao.searchAll("%" + key + "%");
+
+        paramValid = PageUtil.pageParamValid(pageNum, courseList);
+        if (!paramValid.isSuccess()) return paramValid;
+
+        return ServerResponse.createBySuccess("全范围搜索成功", courseList);
+    }
+
+    @Override
+    public ServerResponse searchInCollege(int collegeId, String key, int pageNum, int pageSize) {
+        if (StrUtil.strInvalid(key)) return StrUtil.strInvalidResponse();
+
+        ServerResponse paramValid = PageUtil.pageParamValid(pageNum, pageSize);
+        if (!paramValid.isSuccess()) return paramValid;
+
+        PageHelper.startPage(pageNum, pageSize);
+
+        List<Course> courseList = courseDao.searchInCollege(collegeId, "%" + key + "%");
+
+        paramValid = PageUtil.pageParamValid(pageNum, courseList);
+        if (!paramValid.isSuccess()) return paramValid;
+
+        return ServerResponse.createBySuccess("学校范围搜索成功", courseList);
     }
 
 }

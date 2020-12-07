@@ -63,30 +63,31 @@
     <select id="searchByCourseName" resultMap="CourseResultMap">
         <include refid="allDetail"></include>
         where course_name like #{key}
-        <include refid="sort">
-            <property name="target" value="teacher_name"/>
-        </include>
     </select>
 
     <select id="searchByTeacher" resultMap="CourseResultMap">
         <include refid="allDetail"></include>
         where teacher_name like #{key}
-        order by all_class_schedulte_time.week
     </select>
 
     <select id="searchByCourseNameInCollege" resultMap="CourseResultMap">
         <include refid="allDetail"></include>
-        where course_name like #{key} and college_id = #{collegeId}
-        <include refid="sort">
-            <property name="target" value="teacher_name"/>
-        </include>
+        where college_id = #{collegeId} and course_name like #{key}
     </select>
 
     <select id="searchByTeacherInCollege" resultMap="CourseResultMap">
         <include refid="allDetail"></include>
-        where teacher_name like #{key} and college_id = #{collegeId}
-        order by all_class_schedulte_time.week
+        where college_id = #{collegeId} and teacher_name like #{key}
     </select>
 
+    <select id="searchAll" resultMap="CourseResultMap">
+        <include refid="allDetail"></include>
+        where teacher_name like #{key} or course_name like #{key}
+    </select>
+
+    <select id="searchInCollege" resultMap="CourseResultMap">
+        <include refid="allDetail"></include>
+        where college_id = #{collegeId} and (teacher_name like #{key} or course_name like #{key})
+    </select>
 
 </mapper>
