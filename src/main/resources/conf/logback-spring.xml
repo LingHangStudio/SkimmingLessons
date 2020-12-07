@@ -299,7 +299,6 @@
     <springProfile name="pro">
         <root level="info">
             <appender-ref ref="CONSOLE"/>
-            <appender-ref ref="PRO_DEBUG_FILE"/>
             <appender-ref ref="PRO_INFO_FILE"/>
             <appender-ref ref="PRO_ERROR_FILE"/>
             <appender-ref ref="PRO_WARN_FILE"/>
