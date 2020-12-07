@@ -39,7 +39,7 @@
         join classroom on all_class_schedule.classroom_num = classroom.id
         join all_class_schedulte_time on all_class_schedule.id = all_class_schedulte_time.cls_shd_id
         where course_name = #{className}
-        order by all_class_schedulte_time.start_week
+        order by CONVERT( all_class_schedule.teacher_name using gbk ) collate gbk_chinese_ci ASC
     </select>
 
     <select id="getCourseCount" parameterType="java.lang.Integer" resultType="java.lang.Integer">
