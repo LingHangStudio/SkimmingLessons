@@ -1,6 +1,6 @@
 #服务配置
 server:
-  port: 8080 #[localhost]
+  port: 8022 #[localhost]
 
 #spring配置
 spring:
