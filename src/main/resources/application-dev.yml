@@ -1,6 +1,12 @@
 #服务配置
 server:
   port: 8022 #[localhost]
+  http-port: 8080
+  ssl:
+    key-store: classpath:keystore/javaboy.p12
+    key-store-password: 760506
+    key-alias: tomcathttps
+    enabled: true
 
 #spring配置
 spring:
