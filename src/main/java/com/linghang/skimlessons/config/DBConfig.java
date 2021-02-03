@@ -18,7 +18,7 @@ import javax.sql.DataSource;
 
 /**
  * @author 田
- * 数据源配置（武科大助手 数据库）
+ * 数据源配置（mysql 数据库）
  */
 @Configuration//标记 此类为配置类
 @EnableConfigurationProperties
