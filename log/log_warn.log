@@ -1,0 +1,8 @@
+2021-02-02 16:56:39.399 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.
+2021-02-02 16:56:46.573 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.
+2021-02-02 17:02:53.889 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.
+2021-02-02 17:03:42.243 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.
+2021-02-02 17:15:43.960 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.
+2021-02-02 18:40:06.175 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.
+2021-02-02 18:49:43.544 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.
+2021-02-02 19:04:23.414 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.

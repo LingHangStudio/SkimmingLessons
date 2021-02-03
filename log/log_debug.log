@@ -1,0 +1,53 @@
+2021-02-02 16:56:38.691 [main] DEBUG com.linghang.skimlessons.dao.DaoTest - Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-02-02 16:56:42.414 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 16:56:42.442 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 16:56:42.616 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 16:56:42.661 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 16:56:42.663 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 16:56:42.745 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 16:56:45.922 [main] DEBUG com.linghang.skimlessons.SkimlessonsApplication - Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-02-02 16:56:46.969 [main] DEBUG com.linghang.skimlessons.config.TomcatConfig$1 - Code archive: D:\JetBrains\repository\org\springframework\boot\spring-boot\2.4.0\spring-boot-2.4.0.jar
+2021-02-02 16:56:46.969 [main] DEBUG com.linghang.skimlessons.config.TomcatConfig$1 - Code archive: D:\JetBrains\repository\org\springframework\boot\spring-boot\2.4.0\spring-boot-2.4.0.jar
+2021-02-02 16:56:46.970 [main] DEBUG com.linghang.skimlessons.config.TomcatConfig$1 - None of the document roots [src/main/webapp, public, static] point to a directory and will be ignored.
+2021-02-02 17:02:53.371 [main] DEBUG com.linghang.skimlessons.dao.DaoTest - Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-02-02 17:02:56.541 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 17:02:56.586 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 17:02:56.681 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 17:02:56.716 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 17:02:56.717 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 17:02:56.803 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 17:03:41.747 [main] DEBUG com.linghang.skimlessons.dao.DaoTest - Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-02-02 17:03:44.831 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 17:03:44.874 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 17:03:44.971 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 17:03:45.005 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 17:03:45.005 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 17:03:45.090 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 17:15:43.444 [main] DEBUG com.linghang.skimlessons.dao.DaoTest - Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-02-02 17:15:46.905 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 17:15:46.952 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 17:15:47.152 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 17:15:47.228 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 17:15:47.229 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 17:15:47.366 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 18:40:05.684 [main] DEBUG com.linghang.skimlessons.dao.DaoTest - Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-02-02 18:40:08.703 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 18:40:08.731 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 18:40:08.862 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 18:40:08.897 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 18:40:08.898 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 18:40:08.994 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 18:49:43.027 [main] DEBUG com.linghang.skimlessons.dao.DaoTest - Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-02-02 18:49:46.186 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 18:49:46.220 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 18:49:46.362 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 18:49:46.395 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 18:49:46.395 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 18:49:46.496 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 19:04:22.859 [main] DEBUG com.linghang.skimlessons.dao.DaoTest - Running with Spring Boot v2.4.0, Spring v5.3.1
+2021-02-02 19:04:25.863 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 19:04:25.896 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 19:04:25.997 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2021-02-02 19:04:26.025 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2021-02-02 19:04:26.026 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2021-02-02 19:04:26.113 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19

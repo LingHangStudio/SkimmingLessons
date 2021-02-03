@@ -1,0 +1,199 @@
+2020-12-08 12:13:19.613 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 18152 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:13:19.620 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:13:20.828 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (https)
+2020-12-08 12:13:20.835 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8080"]
+2020-12-08 12:13:20.837 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 12:13:20.837 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 12:13:20.838 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-08 12:13:20.838 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-08 12:13:20.838 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-08 12:13:20.932 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-08 12:13:21.028 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 12:13:21.028 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1371 ms
+2020-12-08 12:13:21.497 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:13:21.731 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8080"]
+2020-12-08 12:13:21.869 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:13:21.872 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-openssl-nio-8080"]
+2020-12-08 12:13:21.872 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-08 12:13:21.887 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-openssl-nio-8080"]
+2020-12-08 12:13:21.887 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-openssl-nio-8080"]
+2020-12-08 12:13:21.893 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-08 12:22:32.244 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 19544 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:22:32.247 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:22:33.102 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8443 (https)
+2020-12-08 12:22:33.108 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:22:33.109 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 12:22:33.109 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 12:22:33.111 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-08 12:22:33.112 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-08 12:22:33.112 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-08 12:22:33.117 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-08 12:22:33.205 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 12:22:33.205 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 912 ms
+2020-12-08 12:22:33.657 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:22:33.951 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:22:34.047 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:22:34.050 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:22:34.050 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-08 12:22:34.059 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:22:34.060 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:22:34.067 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-08 12:23:03.901 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 13420 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:23:03.905 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:23:04.688 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8443 (https)
+2020-12-08 12:23:04.694 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:23:04.694 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 12:23:04.695 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 12:23:04.696 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-08 12:23:04.696 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-08 12:23:04.696 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-08 12:23:04.698 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-08 12:23:04.765 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 12:23:04.765 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 815 ms
+2020-12-08 12:23:05.112 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:23:05.335 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:23:05.390 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:23:05.392 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:23:05.392 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-08 12:23:05.400 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:23:05.400 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:23:05.405 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-08 12:23:30.616 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 19856 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:23:30.619 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:23:31.381 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-08 12:24:06.235 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 1224 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:24:06.238 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:24:07.011 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8443 (https)
+2020-12-08 12:24:07.017 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:24:07.018 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 12:24:07.018 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 12:24:07.019 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-08 12:24:07.019 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-08 12:24:07.020 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-08 12:24:07.022 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-08 12:24:07.079 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 12:24:07.079 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 801 ms
+2020-12-08 12:24:07.422 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:24:07.656 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:24:07.711 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:24:07.713 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:24:07.713 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-08 12:24:07.721 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:24:07.721 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:24:07.726 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-08 12:30:58.645 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 1752 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:30:58.650 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:30:59.435 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-08 12:31:26.652 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 18324 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:31:26.655 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:31:27.467 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8443 (https)
+2020-12-08 12:31:27.473 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:31:27.474 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 12:31:27.474 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 12:31:27.475 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-08 12:31:27.476 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-08 12:31:27.476 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-08 12:31:27.479 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-08 12:31:27.536 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 12:31:27.537 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 834 ms
+2020-12-08 12:31:27.909 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:31:28.140 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:31:28.197 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:31:28.198 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:31:28.199 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-08 12:31:28.206 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:31:28.206 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-openssl-nio-8443"]
+2020-12-08 12:31:28.210 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-08 12:32:30.620 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 11832 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:32:30.625 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:32:31.390 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8022 (https)
+2020-12-08 12:32:31.396 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:32:31.397 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 12:32:31.397 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 12:32:31.398 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-08 12:32:31.398 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-08 12:32:31.398 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-08 12:32:31.400 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-08 12:32:31.461 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 12:32:31.461 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 788 ms
+2020-12-08 12:32:31.865 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:32:32.108 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:32:32.165 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:32:32.167 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:32:32.167 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-08 12:32:32.174 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:32:32.174 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:32:32.180 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-08 12:33:50.565 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 4468 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:33:50.570 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:33:51.419 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8022 (https)
+2020-12-08 12:33:51.425 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:33:51.425 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 12:33:51.426 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 12:33:51.427 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-08 12:33:51.427 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-08 12:33:51.427 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-08 12:33:51.430 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-08 12:33:51.499 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 12:33:51.499 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 879 ms
+2020-12-08 12:33:51.845 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:33:52.071 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:33:52.126 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:33:52.129 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:33:52.129 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2020-12-08 12:33:52.139 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:33:52.140 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:33:52.145 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-12-08 12:34:25.312 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 20648 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 12:34:25.316 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-08 12:34:26.079 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8022 (https)
+2020-12-08 12:34:26.086 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:34:26.086 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-08 12:34:26.086 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-08 12:34:26.088 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-08 12:34:26.088 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-08 12:34:26.088 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-08 12:34:26.091 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-08 12:34:26.151 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-08 12:34:26.151 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 791 ms
+2020-12-08 12:34:26.572 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 12:34:26.786 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-08 12:34:26.924 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8022 (https) with context path ''
+2020-12-08 12:34:26.932 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Started SkimlessonsApplication in 2.062 seconds (JVM running for 2.675)
+2020-12-08 13:17:23.880 [main] INFO  com.linghang.skimlessons.dao.DaoTest - Starting DaoTest using Java 1.8.0_131 on DESKTOP-CE12G9K with PID 22644 (started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-08 13:17:23.900 [main] INFO  com.linghang.skimlessons.dao.DaoTest - The following profiles are active: dev
+2020-12-08 13:17:26.671 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-08 13:17:27.138 [main] INFO  com.linghang.skimlessons.dao.DaoTest - Started DaoTest in 3.765 seconds (JVM running for 4.785)
+2020-12-08 13:17:27.528 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-12-08 13:17:28.497 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.linghang.skimlessons.service.ServiceTest], using SpringBootContextLoader
+2020-12-08 13:17:28.498 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.linghang.skimlessons.service.ServiceTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-12-08 13:17:28.499 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.linghang.skimlessons.service.ServiceTest]: ServiceTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-12-08 13:17:28.508 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.linghang.skimlessons.SkimlessonsApplication for test class com.linghang.skimlessons.service.ServiceTest
+2020-12-08 13:17:28.509 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-12-08 13:17:28.510 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@36e43829, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@152c4495, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ec1963c, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7dcb42a9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6af90849, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d06f16f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4fa4f485, org.springframework.test.context.event.EventPublishingTestExecutionListener@68dd39d2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4a44cfc0, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@60e3c26e, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@80b122b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@999b951, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@65cf4d6d, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1b410308]
+2020-12-08 13:17:28.789 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.linghang.skimlessons.SkimlessonsApplicationTests], using SpringBootContextLoader
+2020-12-08 13:17:28.790 [main] INFO  o.s.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.linghang.skimlessons.SkimlessonsApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-12-08 13:17:28.790 [main] INFO  o.s.t.c.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.linghang.skimlessons.SkimlessonsApplicationTests]: SkimlessonsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-12-08 13:17:28.796 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.linghang.skimlessons.SkimlessonsApplication for test class com.linghang.skimlessons.SkimlessonsApplicationTests
+2020-12-08 13:17:28.798 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-12-08 13:17:28.799 [main] INFO  o.s.b.t.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@10272bbb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@36d33f4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@16736040, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c5d1d25, org.springframework.test.context.support.DirtiesContextTestExecutionListener@550e9be6, org.springframework.test.context.transaction.TransactionalTestExecutionListener@3f96f020, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@32eae6f2, org.springframework.test.context.event.EventPublishingTestExecutionListener@26ca61bf, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@73a0f2b, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@fa5f81c, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6a1d526c, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1f2f0109, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@483b0690, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@687e6293]
+2020-12-08 13:17:29.094 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-08 13:17:29.098 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

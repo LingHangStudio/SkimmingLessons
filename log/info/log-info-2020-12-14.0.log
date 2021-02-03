@@ -1,0 +1,68 @@
+2020-12-14 19:40:16.013 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 260 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-14 19:40:16.025 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-14 19:40:16.836 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8022 (https) 8080 (http)
+2020-12-14 19:40:16.842 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-14 19:40:16.844 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 19:40:16.851 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-14 19:40:16.851 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-14 19:40:16.852 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-14 19:40:16.852 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-14 19:40:16.853 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-14 19:40:16.855 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-14 19:40:16.923 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-14 19:40:16.923 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 853 ms
+2020-12-14 19:40:17.320 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 19:40:17.562 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-14 19:40:17.617 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 19:40:17.620 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8022 (https) 8080 (http) with context path ''
+2020-12-14 19:40:17.628 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Started SkimlessonsApplication in 2.141 seconds (JVM running for 2.835)
+2020-12-14 19:40:21.611 [https-openssl-nio-8022-exec-6] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 19:40:21.612 [https-openssl-nio-8022-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-14 19:40:21.612 [https-openssl-nio-8022-exec-6] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2020-12-14 19:40:21.689 [https-openssl-nio-8022-exec-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-12-14 19:44:52.233 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 16780 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-14 19:44:52.236 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-14 19:44:53.287 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8022 (https) 8080 (http)
+2020-12-14 19:44:53.295 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-14 19:44:53.295 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 19:44:53.303 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-14 19:44:53.304 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-14 19:44:53.305 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-14 19:44:53.305 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-14 19:44:53.306 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-14 19:44:53.308 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-14 19:44:53.383 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-14 19:44:53.384 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1091 ms
+2020-12-14 19:44:53.865 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 19:44:54.043 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-14 19:44:54.107 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 19:44:54.110 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8022 (https) 8080 (http) with context path ''
+2020-12-14 19:44:54.118 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Started SkimlessonsApplication in 2.822 seconds (JVM running for 3.942)
+2020-12-14 19:45:05.331 [https-openssl-nio-8022-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 19:45:05.332 [https-openssl-nio-8022-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-14 19:45:05.333 [https-openssl-nio-8022-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-12-14 19:45:05.426 [https-openssl-nio-8022-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-12-14 19:45:24.716 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-12-14 19:45:24.721 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-12-14 19:45:46.110 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Starting SkimlessonsApplication using Java 1.8.0_251 on DESKTOP-CE12G9K with PID 13380 (D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons\target\classes started by 田 in D:\Microsoft Visual Studio\MyProjects\Homework\JAVA\Skimlessons)
+2020-12-14 19:45:46.113 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - The following profiles are active: dev
+2020-12-14 19:45:46.869 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8022 (https) 8080 (http)
+2020-12-14 19:45:46.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-14 19:45:46.876 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-12-14 19:45:46.884 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-12-14 19:45:46.884 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.39]
+2020-12-14 19:45:46.885 [main] INFO  org.apache.catalina.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.2.24] using APR version [1.7.0].
+2020-12-14 19:45:46.885 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-12-14 19:45:46.885 [main] INFO  org.apache.catalina.core.AprLifecycleListener - APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-12-14 19:45:46.888 [main] INFO  org.apache.catalina.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 1.1.1g  21 Apr 2020]
+2020-12-14 19:45:47.057 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-12-14 19:45:47.057 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 910 ms
+2020-12-14 19:45:47.415 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-12-14 19:45:47.642 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["https-openssl-nio-8022"]
+2020-12-14 19:45:47.698 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-12-14 19:45:47.701 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8022 (https) 8080 (http) with context path ''
+2020-12-14 19:45:47.709 [main] INFO  com.linghang.skimlessons.SkimlessonsApplication - Started SkimlessonsApplication in 2.114 seconds (JVM running for 2.891)
+2020-12-14 19:45:49.683 [https-openssl-nio-8022-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-12-14 19:45:49.683 [https-openssl-nio-8022-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-12-14 19:45:49.684 [https-openssl-nio-8022-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2020-12-14 19:45:49.762 [https-openssl-nio-8022-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited

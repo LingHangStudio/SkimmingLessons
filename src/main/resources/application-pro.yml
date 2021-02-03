@@ -1,0 +1,19 @@
+#服务配置
+server:
+#  servlet:
+#    context-path: /classapi
+  port: 7777 #lh
+#  ssl:
+#    key-store: classpath:keystore/www.wustlinghang.cn.jks    # classpath:keystore/moyujian.xyz.jks
+#    key-store-password: u9k82nrwx84t9    # qm38bcy5way
+#    key-store-type: JKS
+#    enabled: true
+
+#spring配置
+spring:
+  datasource:
+    username: root  #lh
+    password: lh2019  #lh
+    url: jdbc:mysql://localhost:3306/wusthelper?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource

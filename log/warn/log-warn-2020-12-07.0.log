@@ -1,0 +1,1 @@
+2020-12-07 13:37:12.605 [http-nio-8080-exec-8] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'courseName' is not present]

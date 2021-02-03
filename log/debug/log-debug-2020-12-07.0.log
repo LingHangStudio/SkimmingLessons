@@ -1,0 +1,7 @@
+2020-12-07 20:13:59.907 [main] DEBUG com.linghang.skimlessons.dao.DaoTest - Running with Spring Boot v2.4.0, Spring v5.3.1
+2020-12-07 20:14:03.658 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2020-12-07 20:14:03.684 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2020-12-07 20:14:03.788 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19
+2020-12-07 20:14:03.826 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==>  Preparing: select c.id, c.college_name, count(acs.id) as total from college c left join all_class_schedule acs on c.id = acs.college_id group by c.college_name order by CONVERT( c.college_name using gbk ) collate gbk_chinese_ci ASC 
+2020-12-07 20:14:03.826 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - ==> Parameters: 
+2020-12-07 20:14:03.926 [main] DEBUG c.l.skimlessons.dao.CollegeDao.findAllCollege - <==      Total: 19

@@ -1,0 +1,4 @@
+2020-12-06 00:33:25.693 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons.dao]' package. Please check your configuration.
+2020-12-06 00:33:25.785 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.
+2020-12-06 00:36:36.295 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons.dao]' package. Please check your configuration.
+2020-12-06 00:36:36.376 [main] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.linghang.skimlessons]' package. Please check your configuration.
